@@ -10,7 +10,7 @@ document.addEventListener('scroll',function(){
         header.classList.add("hide");
     }
     for(let i = 0;i<section.length;i++){
-        if(section[i].offsetTop+400 < window.pageYOffset){
+        if(section[i].offsetTop+300 < window.pageYOffset){
             section[i].style.opacity = 0.4;
         }
         else{

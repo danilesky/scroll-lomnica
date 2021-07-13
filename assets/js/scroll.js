@@ -1,4 +1,5 @@
 var header = document.getElementById("header_fixed")
+var section = document.getElementsByClassName("section")
 
 document.addEventListener('scroll',function(){
     if(window.pageYOffset>300){
@@ -8,7 +9,19 @@ document.addEventListener('scroll',function(){
     else{
         header.classList.add("hide");
     }
+    for(let i = 0;i<section.length;i++){
+        if(section[i].offsetTop+400 < window.pageYOffset){
+            section[i].style.opacity = 0.4;
+        }
+        else{
+            section[i].style.opacity = 1;
+        }
+    }
 })
+
+
+
+
 
 $(function(){
     'use strict';

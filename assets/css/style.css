@@ -29,8 +29,8 @@ img {
 .sections {
   scroll-behavior: smooth;
   background: #5E1211;
-  -webkit-transition: background 1s ease;
-  transition: background 1s ease;
+  -webkit-transition: background 0.5s ease;
+  transition: background 0.5s ease;
 }
 
 .sections .red {
@@ -47,6 +47,8 @@ img {
 
 .section {
   height: 100vh;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .section_container {

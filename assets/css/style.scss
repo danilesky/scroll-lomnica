@@ -24,7 +24,7 @@ img{
 .sections{
     scroll-behavior: smooth;
     background: #5E1211;
-    transition: background 1s ease;
+    transition: background 0.5s ease;
     .red{
         background: #5E1211;
     }
@@ -38,7 +38,7 @@ img{
 
 .section{
     height: 100vh;
-    
+    transition: 0.5s ease;
     
     &_container{
         max-width: 1440px;

@@ -40,8 +40,9 @@ img{
 
 .section{
     height: 777px;
-    transition: 0.5s ease;
-    
+    img{
+        transition: 0.5s ease;
+    }
     &_container{
         max-width: 1440px;
         margin: auto;

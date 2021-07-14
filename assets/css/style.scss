@@ -26,7 +26,7 @@ img{
     background-color: #5E1211;
     background-repeat: repeat-y;
     background-position-x: right;
-    transition: background-color 0.5s ease;
+    transition: background-color 0.7s ease;
     .red{
         background: #5E1211;
     }
@@ -41,7 +41,7 @@ img{
 .section{
     height: 777px;
     img{
-        transition: 0.5s ease;
+        transition: 0.7s ease;
     }
     &_container{
         max-width: 1440px;

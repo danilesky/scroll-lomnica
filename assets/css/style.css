@@ -31,8 +31,8 @@ img {
   background-color: #5E1211;
   background-repeat: repeat-y;
   background-position-x: right;
-  -webkit-transition: background-color 0.5s ease;
-  transition: background-color 0.5s ease;
+  -webkit-transition: background-color 0.7s ease;
+  transition: background-color 0.7s ease;
 }
 
 .sections .red {
@@ -52,8 +52,8 @@ img {
 }
 
 .section img {
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
+  -webkit-transition: 0.7s ease;
+  transition: 0.7s ease;
 }
 
 .section_container {

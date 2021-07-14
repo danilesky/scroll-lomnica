@@ -159,7 +159,7 @@ h2 {
   position: absolute;
   width: 32px;
   height: 1px;
-  background: #5E1211;
+  background: white;
 }
 
 .burger span:nth-child(2):after {

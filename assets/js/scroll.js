@@ -1,6 +1,10 @@
 var header = document.getElementById("header_fixed")
 var section = document.getElementsByClassName("section")
 
+window.onbeforeunload = function () {
+    window.scrollTo(0,0);
+};
+
 document.addEventListener('scroll',function(){
     if(window.pageYOffset>300){
         header.classList.add("show");

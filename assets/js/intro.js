@@ -26,6 +26,13 @@ window.addEventListener('load',function(){
     for(let i = 0;i < words.length;i++){
         this.setTimeout(function(){
             slogan.innerHTML = words[i]
+            slogan.style.opacity = 1;
+            if(i!==2){
+                setTimeout(function(){
+                    slogan.style.opacity = 0.5;
+                },200)
+            }
+            
         },timer)
         timer=timer+interval;
     }

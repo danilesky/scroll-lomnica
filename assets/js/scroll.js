@@ -29,10 +29,12 @@ $(function(){
     $('.section')
     .height(view)
     .scrollie({
-        scrollOffset: -50,
+        scrollOffset: -500,
         scrollingInView: function(e){
             var bgColor = e.data('background');
+            var bgImage = e.data('image')
             $('.sections').css('background-color',bgColor);
+            $('.sections').css('background-image','url('+bgImage+')');
         }
     });
 });

@@ -7,9 +7,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/intro.css" />
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
+        <div id="intro_overlay" class="page-view">
+            <div class="project">
+                <div class="text">
+                    <h1 id="slogan"></h1>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div id="header_fixed" class="header_fixed">
                 <div class="menu">
@@ -32,7 +40,7 @@
                 <img src="img/top.png" alt="">
             </div>
             <div class="sections">
-                <div class="section" data-background="#5E1211">
+                <div class="section" data-background="#5E1211" data-image="img/pattern1.svg">
                     <div class="section_container">
                         <div class="section_left_content">
                             <h2 class="section_description">Prvotriedne ubytovanie</h2>
@@ -46,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section" data-background="#25334F">
+                <div class="section" data-background="#25334F" data-image="img/pattern2.svg">
                     <div class="section_container">
                         <div class="section_left_content">
                             <h2 class="section_description">Svetové chute <br>v Lomnici</h2>
@@ -59,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="section" data-background="#004628">
+                <div class="section" data-background="#004628" data-image="img/pattern3.svg">
                     <div class="section_container">
                         <div class="section_left_content">
                             <h2 class="section_description">Oddych <br>v lone prírody</h2>
@@ -77,9 +85,10 @@
                 <img src="img/bottom.png" alt="">
             </div>
         </div>
-
+        <script src="assets/js/intro.js"></script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script src="assets/js/scrollie.js"></script>
         <script src="assets/js/scroll.js"></script>
+        
     </body>
 </html>

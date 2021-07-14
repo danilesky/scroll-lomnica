@@ -28,9 +28,11 @@ img {
 
 .sections {
   scroll-behavior: smooth;
-  background: #5E1211;
-  -webkit-transition: background 0.5s ease;
-  transition: background 0.5s ease;
+  background-color: #5E1211;
+  background-repeat: repeat-y;
+  background-position-x: right;
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 
 .sections .red {
@@ -214,6 +216,7 @@ h2 {
 
 .buttons a {
   padding: 23px 30px;
+  padding-top: 24px;
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;

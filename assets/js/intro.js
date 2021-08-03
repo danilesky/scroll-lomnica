@@ -4,7 +4,7 @@ var overlay = document.getElementById('intro_overlay')
 var interval = 500;
 var timer = 500;
 
-const words = ["Tradície","Hravosť","Inovácie"]
+const words = ["Ľudskosť","Umenie","Zážitok"]
 
 function msieversion(){
     var ua = window.navigator.userAgent;

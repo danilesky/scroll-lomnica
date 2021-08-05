@@ -42,14 +42,15 @@ img{
     height: 777px;
     img{
         transition: 0.7s ease;
+        width: 60vw;
     }
     &_container{
-        max-width: 1440px;
+        max-width: 1920px;
         margin: auto;
         height: 100%;
         display: flex;
         align-items: center;
-        padding: 0 7% 0 3%;
+        padding: 0 7% 0 12%;
     }
     &_description{
         color: white;
